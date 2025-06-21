@@ -30,11 +30,17 @@ Then activate:
 
     source bin/activate
 
-(To leave the environment: `deactivate`)
-
 Install the requirements:
 
     pip install -U -r requirements.txt
+
+To run the server:
+
+    fastapi dev src/server/server.py
+
+To exit the VENV:
+
+    deactivate
 
 ### Technical notes
 
