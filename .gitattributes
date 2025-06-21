@@ -1,0 +1,16 @@
+# Make everything here *nix line endings
+* text eol=lf
+
+# Except
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.drdl text eol=crlf
+*.ps1 text eol=crlf
+
+# These are NOT text files
+*.gif binary
+*.ico binary
+*.jar binary
+*.jpg binary
+*.png binary
+*.xlsx binary eol=crlf
