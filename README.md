@@ -36,7 +36,7 @@ Install the requirements:
 
 To run the server:
 
-    fastapi dev src/server/server.py
+    fastapi dev src/kmoo.py
 
 To exit the VENV:
 
