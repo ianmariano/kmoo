@@ -34,9 +34,9 @@ Install the requirements:
 
     pip install -U -r requirements.txt
 
-To run the server:
+To directly run the server backend:
 
-    fastapi dev src/kmoo.py
+    fastapi dev backend/main.py
 
 To exit the VENV:
 

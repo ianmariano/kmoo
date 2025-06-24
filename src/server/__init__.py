@@ -1,3 +1,0 @@
-"""
-    KMOO Server Core
-"""
