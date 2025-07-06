@@ -26,6 +26,8 @@ A [VENV] should be used to keep things clean. `cd kmeoo` then:
 
     python3 -m venv --symlinks --without-scm-ignore-files .
 
+#### Local Development
+
 Then activate:
 
     source bin/activate
@@ -41,6 +43,18 @@ To directly run the server backend:
 To exit the VENV:
 
     deactivate
+
+#### Container
+
+    docker build -t kmoo:0.1.0 -t kmoo:latest .
+
+Then you can
+
+    docker run --rm -p 80:80 kmoo:latest
+
+or similar. You should not have a webserver running on your host listening on port 80 or you will need to change the above.
+
+You can then goto http://localhost or http://localhost/docs
 
 ### Technical notes
 
