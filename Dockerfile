@@ -6,6 +6,7 @@ RUN addgroup -g 1000 kmoo \
     && adduser -D -u 1000 -G kmoo kmoo
 
 COPY requirements.txt /kmoo/
+COPY frontend/ /kmoo/
 COPY backend/ /kmoo/
 
 RUN pip3 install --no-cache-dir -r /kmoo/requirements.txt \

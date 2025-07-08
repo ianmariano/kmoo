@@ -10,8 +10,8 @@ api_router = APIRouter()
 # Generic routes
 #
 
-@api_router.get("/version", tags=["version"])
-def get_kmoo_version():
+@api_router.get("/api/version", tags=["version"])
+async def get_kmoo_version():
     """
     Returns the version of the KMOO.
     """
